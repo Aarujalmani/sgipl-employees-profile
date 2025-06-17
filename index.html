@@ -141,8 +141,10 @@
             <p><span class="label">Department:</span> ${employee.department}</p>
             <p><span class="label">Email:</span> ${employee.email}</p>
             <p><span class="label">Phone:</span> ${employee.phone}</p>
+            <p><span class="label">Branch:</span> ${employee.branch}</p>
+            <p><span class="label">Emergency Contact:</span> ${employee.emergency-contact}</p>
           </div>
-        `;
+          `;
         } catch (error) {
           container.innerHTML =
             '<div class="error">⚠️ Error loading profile</div>';
