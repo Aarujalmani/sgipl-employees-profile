@@ -10,6 +10,16 @@
       background: #f9f9f9;
       padding: 20px;
     }
+
+    .logo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .logo img {
+      height: 50px;
+    }
+
     .card {
       max-width: 400px;
       margin: 0 auto;
@@ -19,6 +29,7 @@
       box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
       text-align: center;
     }
+
     .profile-img {
       width: 120px;
       height: 120px;
@@ -27,18 +38,32 @@
       border: 4px solid #007bff;
       margin-bottom: 16px;
     }
+
     h2 {
       margin: 0;
       color: #333;
     }
+
     p {
       margin: 6px 0;
       color: #555;
     }
+
     .label {
       color: #007bff;
       font-weight: bold;
     }
+
+    .footer-logo {
+      text-align: center;
+      margin-top: 30px;
+      opacity: 0.5;
+    }
+
+    .footer-logo img {
+      height: 40px;
+    }
+
     .error {
       text-align: center;
       color: red;
@@ -47,7 +72,18 @@
   </style>
 </head>
 <body>
+
+  <!-- Company Logo Header -->
+  <div class="logo">
+    <img src="assets/logo.png" alt="Super Gifts India Logo">
+  </div>
+
   <div id="profile"></div>
+
+  <!-- Company Logo Footer -->
+  <div class="footer-logo">
+    <img src="assets/logo.png" alt="Super Gifts India Logo Footer">
+  </div>
 
   <script>
     async function loadEmployeeProfile() {
