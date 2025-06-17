@@ -2,6 +2,7 @@
   {
     "id": "SGI1024",
     "name": "John Doe",
+    "designation": "Senior Graphic Designer",
     "department": "Design",
     "email": "john.doe@supergifts.in",
     "phone": "+91-9876543210",
@@ -10,6 +11,7 @@
   {
     "id": "SGI1025",
     "name": "Aisha Mehta",
+    "designation": "Senior Graphic Designer",
     "department": "Sales",
     "email": "aisha.mehta@supergifts.in",
     "phone": "+91-9876543211",

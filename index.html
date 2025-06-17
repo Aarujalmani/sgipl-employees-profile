@@ -1,145 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Employee Profile - Super Gifts India</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    :root {
-      --primary-color: #e63946; /* Super Gifts India Red */
-      --secondary-color: #f1faee;
-      --text-color: #1d3557;
-      --font: 'Segoe UI', sans-serif;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <title>Employee Profile - Super Gifts India</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      :root {
+        --primary-color: #e63946; /* Super Gifts India Red */
+        --secondary-color: #f1faee;
+        --text-color: #1d3557;
+        --font: "Segoe UI", sans-serif;
+      }
 
-    body {
-      margin: 0;
-      font-family: var(--font);
-      background: var(--secondary-color);
-      color: var(--text-color);
-      padding: 20px;
-    }
+      body {
+        margin: 0;
+        font-family: var(--font);
+        background: var(--secondary-color);
+        color: var(--text-color);
+        padding: 20px;
+      }
 
-    .logo {
-      text-align: center;
-      margin-bottom: 30px;
-    }
+      .logo {
+        text-align: center;
+        margin-bottom: 30px;
+      }
 
-    .logo img {
-      height: 60px;
-    }
+      .logo img {
+        height: 60px;
+      }
 
-    .card {
-      max-width: 400px;
-      margin: 0 auto;
-      background: #ffffff;
-      border-radius: 20px;
-      padding: 30px;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-      text-align: center;
-      border-top: 6px solid var(--primary-color);
-    }
+      .card {
+        max-width: 400px;
+        margin: 0 auto;
+        background: #ffffff;
+        border-radius: 20px;
+        padding: 30px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        border-top: 6px solid var(--primary-color);
+      }
 
-    .profile-img {
-      width: 130px;
-      height: 130px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 4px solid var(--primary-color);
-      margin-bottom: 16px;
-    }
+      .profile-img {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid var(--primary-color);
+        margin-bottom: 16px;
+      }
 
-    h2 {
-      margin: 10px 0 6px;
-      font-size: 24px;
-      color: var(--text-color);
-    }
+      h2 {
+        margin: 10px 0 6px;
+        font-size: 24px;
+        color: var(--text-color);
+      }
 
-    p {
-      margin: 4px 0;
-      font-size: 14px;
-    }
+      p {
+        margin: 4px 0;
+        font-size: 14px;
+      }
 
-    .label {
-      font-weight: bold;
-      color: var(--primary-color);
-    }
+      .designation {
+        margin-top: -6px;
+        font-size: 15px;
+        color: #666;
+        font-style: italic;
+        margin-bottom: 12px;
+      }
 
-/*     .footer-logo {
+      .label {
+        font-weight: bold;
+        color: var(--primary-color);
+      }
+
+      /*     .footer-logo {
       text-align: center;
       margin-top: 30px;
       opacity: 0.5;
     } */
 
-/*     .footer-logo img {
+      /*     .footer-logo img {
       height: 40px;
     } */
 
-    .error {
-      text-align: center;
-      color: red;
-      margin-top: 100px;
-      font-weight: bold;
-    }
-  </style>
-</head>
-<body>
+      .error {
+        text-align: center;
+        color: red;
+        margin-top: 100px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Company Logo -->
+    <div class="logo">
+      <img src="assets/logo.png" alt="Super Gifts India Logo" />
+    </div>
 
-  <!-- Company Logo -->
-  <div class="logo">
-    <img src="assets/logo.png" alt="Super Gifts India Logo">
-  </div>
+    <!-- Employee Profile Card -->
+    <div id="profile"></div>
 
-  <!-- Employee Profile Card -->
-  <div id="profile"></div>
-
-  <!-- Company Logo Footer -->
-<!--   <div class="footer-logo">
+    <!-- Company Logo Footer -->
+    <!--   <div class="footer-logo">
     <img src="assets/logo.png" alt="Super Gifts India Logo Footer">
   </div> -->
-  <!-- Footer Logo -->
-  <div class="footer-logo">
-    <img src="assets/logo.png" alt="Footer Logo">
-  </div>
+    <!-- Footer Logo -->
+    <div class="footer-logo">
+      <img src="assets/logo.png" alt="Footer Logo" />
+    </div>
 
-  <script>
-    async function loadEmployeeProfile() {
-      const urlParams = new URLSearchParams(window.location.search);
-      const empId = urlParams.get('id');
-      const container = document.getElementById('profile');
+    <script>
+      async function loadEmployeeProfile() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const empId = urlParams.get("id");
+        const container = document.getElementById("profile");
 
-      if (!empId) {
-        container.innerHTML = '<div class="error">❌ No Employee ID Provided in URL</div>';
-        return;
-      }
-
-      try {
-        const res = await fetch('employees.json');
-        const data = await res.json();
-        const employee = data.find(emp => emp.id === empId);
-
-        if (!employee) {
-          container.innerHTML = '<div class="error">❌ Employee Not Found</div>';
+        if (!empId) {
+          container.innerHTML =
+            '<div class="error">❌ No Employee ID Provided in URL</div>';
           return;
         }
 
-        container.innerHTML = `
+        try {
+          const res = await fetch("employees.json");
+          const data = await res.json();
+          const employee = data.find((emp) => emp.id === empId);
+
+          if (!employee) {
+            container.innerHTML =
+              '<div class="error">❌ Employee Not Found</div>';
+            return;
+          }
+
+          container.innerHTML = `
           <div class="card">
             <img class="profile-img" src="${employee.photo}" alt="${employee.name}" />
             <h2>${employee.name}</h2>
+            <p class="designation">${employee.designation}</p>
             <p><span class="label">ID:</span> ${employee.id}</p>
             <p><span class="label">Department:</span> ${employee.department}</p>
             <p><span class="label">Email:</span> ${employee.email}</p>
             <p><span class="label">Phone:</span> ${employee.phone}</p>
           </div>
         `;
-      } catch (error) {
-        container.innerHTML = '<div class="error">⚠️ Error loading profile</div>';
-        console.error(error);
+        } catch (error) {
+          container.innerHTML =
+            '<div class="error">⚠️ Error loading profile</div>';
+          console.error(error);
+        }
       }
-    }
 
-    loadEmployeeProfile();
-  </script>
-</body>
+      loadEmployeeProfile();
+    </script>
+  </body>
 </html>
