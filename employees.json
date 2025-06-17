@@ -1,14 +1,14 @@
 [
   {
     "id": "SGI1024",
-    "name": "John Doe",
-    "designation": "Senior Graphic Designer",
-    "department": "Design",
-    "email": "john.doe@supergifts.in",
-    "phone": "+91-9876543210",
+    "name": "Arbaz Jalmani",
+    "designation": "Assistant Manager",
+    "department": "Designing & Marketing",
+    "email": "designer.supergifts@gmail.com",
+    "phone": "+91 74109 09124",
     "photo": "assets/arbazjalmani.jpg",
     "branch": "Hyderabad",
-    "emergency-contact": "+91-9314123070"
+    "emergency-contact": "+91 93141 23070"
   },
   {
     "id": "SGI1025",
