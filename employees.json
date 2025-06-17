@@ -1,0 +1,18 @@
+[
+  {
+    "id": "SGI1024",
+    "name": "John Doe",
+    "department": "Design",
+    "email": "john.doe@supergifts.in",
+    "phone": "+91-9876543210",
+    "photo": "https://via.placeholder.com/120"
+  },
+  {
+    "id": "SGI1025",
+    "name": "Aisha Mehta",
+    "department": "Sales",
+    "email": "aisha.mehta@supergifts.in",
+    "phone": "+91-9876543211",
+    "photo": "https://via.placeholder.com/120"
+  }
+]
