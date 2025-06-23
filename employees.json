@@ -33,7 +33,7 @@
     "emergency-contact": "+91-93939 30185"
   },
   {
-    "id": "SGIPL-101",
+    "id": "SGIPL-104",
     "name": "Saad Anwer",
     "designation": "Senior Graphic Designer",
     "department": "Sales",
@@ -44,7 +44,7 @@
     "emergency-contact": "+91-9314123070"
   },
   {
-    "id": "SGIPL-101",
+    "id": "SGIPL-105",
     "name": "Mohammad Rasool",
     "designation": "Senior Graphic Designer",
     "department": "Sales",
@@ -55,8 +55,41 @@
     "emergency-contact": "+91-9314123070"
   },
   {
-    "id": "SGIPL-101",
-    "name": "Mohammed Sohail",
+    "id": "SGIPL-106",
+    "name": "P Bhanu Chander",
+    "designation": "Director - Head Sales",
+    "department": "Board Of Director",
+    "email": "bhanu@supergifts.in",
+    "phone": "+91 93464 26868",
+    "photo": "https://via.placeholder.com/120",
+    "branch": "Hyderabad",
+    "emergency-contact": "+91 93464 26868"
+  },
+  {
+    "id": "SGIPL-107",
+    "name": "Rehan Azad",
+    "designation": "Director - Strategy and Brand Alliance",
+    "department": "Board Of Director",
+    "email": "rehan@supergifts.in",
+    "phone": "+91-77387 77749",
+    "photo": "https://via.placeholder.com/120",
+    "branch": "Hyderabad",
+    "emergency-contact": "+91-77387 77749"
+  },
+  {
+    "id": "SGIPL-108",
+    "name": "Madduri Damodar",
+    "designation": "Operations Executive",
+    "department": "Operations",
+    "email": " ",
+    "phone": "+91-93939 30185",
+    "photo": "https://via.placeholder.com/120",
+    "branch": "Hyderabad",
+    "emergency-contact": "+91-93939 30185"
+  },
+  {
+    "id": "SGIPL-109",
+    "name": "Saad Anwer",
     "designation": "Senior Graphic Designer",
     "department": "Sales",
     "email": "aisha.mehta@supergifts.in",
@@ -66,16 +99,115 @@
     "emergency-contact": "+91-9314123070"
   },
   {
-    "id": "SGIPL-120",
-    "name": "Arbaz Jalmani",
-    "designation": "Assistant Manager",
-    "department": "Designing & Marketing",
-    "email": "designer.supergifts@gmail.com",
-    "phone": "+91 74109 09124",
-    "photo": "assets/arbazjalmani.jpg",
+    "id": "SGIPL-110",
+    "name": "Mohammad Rasool",
+    "designation": "Senior Graphic Designer",
+    "department": "Sales",
+    "email": "aisha.mehta@supergifts.in",
+    "phone": "+91-9876543211",
+    "photo": "https://via.placeholder.com/120",
     "branch": "Hyderabad",
-    "emergency-contact": "+91 93141 23070"
-  }
+    "emergency-contact": "+91-9314123070"
+  },
+  {
+    "id": "SGIPL-111",
+    "name": "P Bhanu Chander",
+    "designation": "Director - Head Sales",
+    "department": "Board Of Director",
+    "email": "bhanu@supergifts.in",
+    "phone": "+91 93464 26868",
+    "photo": "https://via.placeholder.com/120",
+    "branch": "Hyderabad",
+    "emergency-contact": "+91 93464 26868"
+  },
+  {
+    "id": "SGIPL-112",
+    "name": "Rehan Azad",
+    "designation": "Director - Strategy and Brand Alliance",
+    "department": "Board Of Director",
+    "email": "rehan@supergifts.in",
+    "phone": "+91-77387 77749",
+    "photo": "https://via.placeholder.com/120",
+    "branch": "Hyderabad",
+    "emergency-contact": "+91-77387 77749"
+  },
+  {
+    "id": "SGIPL-113",
+    "name": "Madduri Damodar",
+    "designation": "Operations Executive",
+    "department": "Operations",
+    "email": " ",
+    "phone": "+91-93939 30185",
+    "photo": "https://via.placeholder.com/120",
+    "branch": "Hyderabad",
+    "emergency-contact": "+91-93939 30185"
+  },
+  {
+    "id": "SGIPL-114",
+    "name": "Saad Anwer",
+    "designation": "Senior Graphic Designer",
+    "department": "Sales",
+    "email": "aisha.mehta@supergifts.in",
+    "phone": "+91-9876543211",
+    "photo": "https://via.placeholder.com/120",
+    "branch": "Hyderabad",
+    "emergency-contact": "+91-9314123070"
+  },
+  {
+    "id": "SGIPL-115",
+    "name": "Mohammad Rasool",
+    "designation": "Senior Graphic Designer",
+    "department": "Sales",
+    "email": "aisha.mehta@supergifts.in",
+    "phone": "+91-9876543211",
+    "photo": "https://via.placeholder.com/120",
+    "branch": "Hyderabad",
+    "emergency-contact": "+91-9314123070"
+  },
+  {
+    "id": "SGIPL-116",
+    "name": "Madduri Damodar",
+    "designation": "Operations Executive",
+    "department": "Operations",
+    "email": " ",
+    "phone": "+91-93939 30185",
+    "photo": "https://via.placeholder.com/120",
+    "branch": "Hyderabad",
+    "emergency-contact": "+91-93939 30185"
+  },
+  {
+    "id": "SGIPL-117",
+    "name": "Saad Anwer",
+    "designation": "Senior Graphic Designer",
+    "department": "Sales",
+    "email": "aisha.mehta@supergifts.in",
+    "phone": "+91-9876543211",
+    "photo": "https://via.placeholder.com/120",
+    "branch": "Hyderabad",
+    "emergency-contact": "+91-9314123070"
+  },
+  {
+    "id": "SGIPL-118",
+    "name": "Mohammad Rasool",
+    "designation": "Senior Graphic Designer",
+    "department": "Sales",
+    "email": "aisha.mehta@supergifts.in",
+    "phone": "+91-9876543211",
+    "photo": "https://via.placeholder.com/120",
+    "branch": "Hyderabad",
+    "emergency-contact": "+91-9314123070"
+  },
+  {
+    "id": "SGIPL-119",
+    "name": "Mohammed Sohail",
+    "designation": "Senior Graphic Designer",
+    "department": "Sales",
+    "email": "aisha.mehta@supergifts.in",
+    "phone": "+91-9876543211",
+    "photo": "https://via.placeholder.com/120",
+    "branch": "Hyderabad",
+    "emergency-contact": "+91-9314123070"
+  },
   {
     "id": "SGIPL-120",
     "name": "Arbaz Jalmani",
