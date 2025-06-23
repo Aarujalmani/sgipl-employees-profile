@@ -12,7 +12,18 @@
   },
   {
     "id": "SGI1025",
-    "name": "Aisha Mehta",
+    "name": "Zaheer Anwer",
+    "designation": "Senior Graphic Designer",
+    "department": "Sales",
+    "email": "aisha.mehta@supergifts.in",
+    "phone": "+91-9876543211",
+    "photo": "https://via.placeholder.com/120",
+    "branch": "Hyderabad",
+    "emergency-contact": "+91-9314123070"
+  },
+  {
+    "id": "SGI1026",
+    "name": "Saad Anwer",
     "designation": "Senior Graphic Designer",
     "department": "Sales",
     "email": "aisha.mehta@supergifts.in",
