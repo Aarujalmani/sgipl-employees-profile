@@ -218,5 +218,26 @@
     "photo": "assets/arbazjalmani.jpg",
     "branch": "Hyderabad",
     "emergency-contact": "+91 93141 23070"
+  },
+  {
+    "id": "SGIPL-121",
+    "name": "Deepak",
+    "designation": "Security Guard",
+    "department": "Security Guard",
+    "email": " ",
+    "phone": "+91-86884 10576",
+    "branch": "Hyderabad",
+    "emergency-contact": "+91-86884 10576"
+  },
+  {
+    "id": "SGIPL-122",
+    "name": "Rohit Singh",
+    "designation": "Logistics Executive",
+    "department": "Logistic",
+    "email": " ",
+    "phone": "+91-8121120937",
+    "photo": "https://via.placeholder.com/120",
+    "branch": "Hyderabad",
+    "emergency-contact": "+91-86884 10576"
   }
 ]
